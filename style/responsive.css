@@ -1,5 +1,5 @@
 .container{
-    max-width: 1280PX;
+    max-width: 1440PX;
     margin: 0 auto;
 }
 
@@ -168,7 +168,7 @@ button:hover{
     width: 286px;
     height: 286px;
     margin-bottom: 0px;
-    margin-left: -260px;
+    margin-left: -360px;
     margin-top: 50px;
 }
 
@@ -308,4 +308,59 @@ button:hover{
  a:hover{
     transform: scale(1.2);
     color:rgb(255, 183, 197);
+}
+.subscribtion img{
+    width: 100%;
+    height: 533px;
+   margin-top: 156px;
+}
+ .subscribtion{
+    position: relative;
+ }
+ .subscription-text{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    font-weight: 700;
+    font-size: 40px;
+    }
+input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+} 
+.form-container button{
+    width: 150px;
+    height: 53px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: none;
+}
+
+.form-button:hover {
+   font-size: 0.5em;
+   background-color: rgb(255, 195, 207);
+   color: crimson;
+   font-weight: 700;
+   transition: font-size background-color color font-weight 1s ease;
+}
+input:hover{
+    background-color: rgb(254, 238, 238);
+    border: 2px solid rgb(240, 132, 154);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    transition:background-color border box-shadow 0.2s ease ;
 }
