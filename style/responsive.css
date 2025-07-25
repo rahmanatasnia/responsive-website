@@ -1,5 +1,5 @@
 .container{
-    max-width: 1440PX;
+    max-width: 1280PX;
     margin: 0 auto;
 }
 
@@ -107,11 +107,94 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 15px solid rgba(0, 0, 0, 0.609);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.single-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
    
 }
+
+.product-name{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.price-tag{
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+.cards-item button{
+    border: none;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    width: 270px;
+    height: 50px;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+button:hover{
+    font-size: 1.15em;
+    transition: font-size 0.2s ease;
+}
+
+.challenge-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.store-image{
+    margin-top: 150px;
+   
+}
+
+.badge-image{
+    width: 286px;
+    height: 286px;
+    margin-bottom: 0px;
+    margin-left: -260px;
+    margin-top: 50px;
+}
+
+.description-container{
+    margin-top:150px;
+   
+   
+}
+
+.description-container ul{
+    font-size: 22px;
+    width: 500px;
+
+}
+
+.description-title{
+    font-weight: 700;
+    font-size: 50px;
+    width: 450px;
+
+}
+
+.description-container ul li{
+    margin-bottom: 20px;
+    color: #8987A1;
+
+}
+
+
