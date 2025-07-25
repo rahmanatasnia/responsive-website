@@ -103,6 +103,7 @@
     justify-content: center;
    grid-template-columns:auto;
 }
+
 .single-card{
     display: flex;
     flex-direction: column;
@@ -112,6 +113,8 @@
     padding: 20px;
     box-shadow: 0 15px solid rgba(0, 0, 0, 0.609);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .single-card:hover {
@@ -364,3 +367,104 @@ input:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
     transition:background-color border box-shadow 0.2s ease ;
 }
+
+footer ul{
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #8987A1;
+}
+footer p{
+    color: #8987A1;
+    font-size: 22px;
+    width: 359px;
+}
+ footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   background-color: white;
+   padding: 50px;
+   gap: 40px;
+   flex-wrap: wrap;
+   
+   
+ }
+ .footer-left{
+    margin-top: 60px;
+ }
+
+ .footer-right{
+    display: flex;
+    gap: 100px;
+ }
+
+ .footer-right li{
+    margin-bottom: 50px;
+   
+   
+ }
+
+.social-icon{
+display: flex;
+   gap: 25px;
+}
+.social-icon img{
+    width: 28px;
+    height: 28px;
+}
+.social-icon img:hover{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    transition: transform filter 0.3s ease;
+}
+
+@media screen and (max-width: 576px) {
+        .navbar a{
+            display: none;
+        }
+        .navbar li{
+            font-size:10px;
+        }
+        .banner{
+            flex-direction: column-reverse;
+            
+          
+           
+        }
+        .banner-title .banner-peragaraph{
+            width: 50%;
+            padding: 40px;
+            text-align: left;
+           
+
+        }
+        .banner h1{
+            font-size: 2.3rem;
+            padding-left: 70px;
+            margin-top: 28px;
+        }
+
+        .banner-peragaraph{
+            padding-left: 70px;
+            width: 360px;
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+        .banner img{
+            width: 100%;
+            height: auto;
+            display: block;
+            order: -1;
+        }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .badge-image{
+        display: none;
+    }
+    }
