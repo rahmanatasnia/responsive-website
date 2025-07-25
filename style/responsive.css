@@ -1,5 +1,5 @@
 .container{
-    max-width: 1280PX;
+    max-width: 1440PX;
     margin: 0 auto;
 }
 
@@ -56,16 +56,17 @@
 
 .banner-title{
     width: 450px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin-top: 140px;
     font-weight: 800;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 .title-color{
     color: #E95A08;
 }
 .banner-peragaraph{
-     width: 350px;
+     width: 410px;
      margin-top: 0px;
      color: #8987A1;
      font-size: 1em;
@@ -77,4 +78,40 @@
 .banner-image{
     width: 570px;
     height: 355px;
+}
+.plants-card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin-top: 120px;
+
+}
+
+.plants-title{
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.second-peragraph{
+    width: 600px;
+    color: #8987A1;
+}
+.cards-item{
+    display: flex;
+    justify-content: center;
+   grid-template-columns:auto;
+}
+.single-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+   
 }
