@@ -467,4 +467,35 @@ display: flex;
     .badge-image{
         display: none;
     }
+    .challenge-section{
+        flex-direction: column;
+    }
+    .deals-container{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    .flower-garden{
+        width: 100%;
+    }
+    .image-box{
+        width: 100%;
+    }
+    .latest-container p{
+        width: auto;
+    }
+  .picture-container{
+    width: 100%;
+    justify-content: center;
+  }
+  .flower-garden{
+    height: auto;
+    margin-left: 0;
+  }
+  body{
+    padding: 10px;
+  }
+  input{
+    width: 50%;
+  }
     }
